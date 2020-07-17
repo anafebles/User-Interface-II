@@ -1,1 +1,261 @@
-/* Add CSS styling here */
+        /* Add CSS styling here */
+        /* reset css */
+        
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset */
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+        /* every element is a border-box */
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Kosugi Maru', sans-serif;
+        }
+        
+        .top {
+            background-color: #FFE4B5;
+            padding: 5rem;
+        }
+        
+        .top h1 {
+            font-family: 'Kosugi Maru', sans-serif;
+            font-family: 'Monoton', cursive;
+        }
+        
+        h1 {
+            font-size: 5rem;
+        }
+        
+        nav {
+            margin-left: 2rem;
+            margin-top: 2rem;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: brown;
+            background-color: #DAA520;
+            flex: 30%;
+            border: solid black 2px;
+        }
+        
+        a.one::before {
+            content: "🏠 ";
+        }
+        
+        a.two::before {
+            content: "☕";
+        }
+        
+        a.three::before {
+            content: "📞";
+        }
+        
+        a.four::before {
+            content: "📂 ";
+        }
+        
+        .button1::before {
+            content: "📂 ";
+        }
+        
+        nav a:hover {
+            transition: all 0.5s ease-out;
+            letter-spacing: 8px;
+        }
+        
+        .imgmain img {
+            margin: 1rem;
+            width: 229%;
+            justify-content: flex-start;
+            object-fit: contain;
+        }
+        
+        .abouttext {
+            padding: 3rem;
+            width: 64%;
+            letter-spacing: 2px;
+            font-size: 2rem;
+            margin-left: auto;
+        }
+        
+        .main1 {
+            display: flex;
+            margin: 2rem;
+            text-align: center;
+        }
+        
+        .img {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .imgs {
+            height: 25rem;
+            width: 22%;
+        }
+        
+        .fa {
+            padding: 20px;
+            margin: 3rem;
+            width: 50px;
+            text-decoration: none;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        
+        .fa-instagram {
+            background-color: rgb(177, 4, 162);
+            color: white;
+        }
+        
+        .footer {
+            text-align: center;
+            background-color: #DAA520;
+        }
+        
+        .footer h4 {
+            font-size: 3rem;
+        }
+        
+        .button1 {
+            font-size: 24px;
+            border-radius: 4px;
+            border: 2px solid #DAA520;
+            background-color: #FFE4B5;
+        }
+        
+        .button1:hover {
+            background-color: whitesmoke;
+        }
+        
+        .button2 {
+            font-size: 24px;
+            border-radius: 4px;
+            border: 2px solid #DAA520;
+            background-color: whitesmoke;
+        }
+        
+        .button2:hover {
+            background-color: #FFE4B5;
+        }
+        
+        @media (max-width: 600px) {}
