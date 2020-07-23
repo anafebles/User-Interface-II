@@ -259,6 +259,12 @@
         }
         
         @media only screen and (max-width: 800px) {
+            html {
+                max-width: min-content;
+            }
+            .top {
+                padding: 8rem;
+            }
             nav {
                 display: flex;
                 flex-direction: column;
@@ -268,8 +274,8 @@
             }
             h1 {
                 font-size: 5.4rem;
-                margin-right: 1.6rem;
-                margin-left: -79px;
+                margin-right: -8.4rem;
+                margin-left: -127px;
             }
             .main1 {
                 display: table-caption;
@@ -280,5 +286,54 @@
                 font-size: 1.3rem;
                 padding: 6rem;
             }
-            .imgs {}
+            .img {
+                margin-left: -6rem;
+            }
+            .imgs {
+                max-width: 40%;
+                padding: 7rem;
+                margin: 5rem;
+                margin-top: -12rem;
+                margin-left: -3rem;
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+            html {
+                max-width: min-content;
+            }
+            .top {
+                padding: 3rem;
+            }
+            nav {
+                display: flex;
+                flex-direction: column;
+                font-size: 43px;
+                margin-left: 65px;
+                margin-right: 65px;
+            }
+            h1 {
+                margin-left: 27px;
+            }
+            .main1 {
+                display: table-caption;
+            }
+            .imgmain {
+                max-width: 13rem;
+            }
+            .abouttext {
+                width: 276%;
+                margin-left: -28px;
+                font-size: 1.3rem;
+                padding: 6rem;
+            }
+            .img {
+                margin-left: -6rem;
+            }
+            .imgs {
+                max-width: 40%;
+                padding: 7rem;
+                margin: 5rem;
+                margin-top: -12rem;
+            }
         }
